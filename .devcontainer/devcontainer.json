@@ -1,0 +1,16 @@
+{
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/.",
+
+    "forwardPorts": [5432],
+
+    "remoteUser": "vscode",
+    "containerUser": "vscode",
+
+    "customizations": {
+        "vscode": {
+            "extensions": ["jakebecker.elixir-ls", "github.copilot", "github.copilot-chat", "ms-azuretools.vscode-docker"]
+        }
+    }
+}
